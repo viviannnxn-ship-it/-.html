@@ -701,9 +701,3 @@ html_content = '''<!DOCTYPE html>
 
 </body>
 </html>
-'''
-
-with open("hbd_p_kao.html", "w", encoding="utf-8") as f:
-    f.write(html_content)
-
-print("FILE_CREATED")
